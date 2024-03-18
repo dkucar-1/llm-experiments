@@ -1,4 +1,4 @@
-# Prompt Generator using LangChain with a model from Hugging Face
+# Prompt Generator using LangChain
 
 This is a very simple prompt that you can enter and the LLM will give you a response.
 
