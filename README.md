@@ -13,7 +13,7 @@ pip3 install streamlit langchain transformers  wikipedia chromadb tiktoken --qui
 ```
 
 ## Required files
-`apikey.py` contains the API key you get from your Hugging Face Account. You can get this by creating a HuggingFace account and going to `https://huggingface.co/settings/account` and going clicking on the *Access Tokens* menu.
+You need to get a HuggingFace access token and saving it to your local environment as `HUGGINGFACEHUB_API_TOKEN`. You can get this by creating a HuggingFace account and going to `https://huggingface.co/settings/account` and going clicking on the *Access Tokens* menu.
 
 `app.py` contains the code that runs the streamlit UI and the underlying LLM
 
